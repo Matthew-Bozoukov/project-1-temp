@@ -30,9 +30,12 @@ public class p1 {
 				while(scanner.hasNext()) {
 					for(int i=0; i<map.length; i++) {
 						for(int j=0; j<map[0].length; j++) {
+							
+							
 							map[i][j]=scanner.next();
 							System.out.println("row"+ count + map[0][j]);
 							count++;
+							
 						}
 					}
 				}
@@ -45,8 +48,6 @@ public class p1 {
 						}
 					}
 				}
-			}if(f.compareTo(f2)==0) {
-				coordinateBased(scanner);
 			}
 		
 			
